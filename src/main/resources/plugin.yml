@@ -1,0 +1,20 @@
+name: BackupsPlugins
+version: '${project.version}'
+main: org.b0b0b0.backupsplugins.BackupsPlugins
+
+commands:
+  bpc:
+    description: Main command for Backup Plugins
+    usage: /bpc <run|reload>
+    permission: backupplugin.use
+
+permissions:
+  backupplugin.use:
+    description: Allows the player to use the bpc command
+    default: op
+  backupplugin.backup:
+    description: Allows the player to back up all plugin configs
+    default: op
+  backupplugin.reload:
+    description: Allows the player to reload the plugin configuration
+    default: op

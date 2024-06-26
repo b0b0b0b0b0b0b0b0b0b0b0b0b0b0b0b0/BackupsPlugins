@@ -1,0 +1,10 @@
+# ======================================
+#  BackupsPlugins Configuration File
+# ======================================
+
+# List of folders to ignore during backup
+ignore-folders:
+  # backups: folder of the plugin itself. Removing it may cause errors.
+  - backups
+  # .paper-remapped: remapper folder for paper on 1.20.6+. Removing it may cause errors.
+  - .paper-remapped
